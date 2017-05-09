@@ -1,0 +1,48 @@
+{
+    "name": "kln/newshub-system",
+    "description": "base newshub system",
+    "keywords": ["framework"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.0",
+        "zendframework/zend-diactoros": "~1.4@stable",
+        "league/container": "~2.4@stable",
+        "league/route": "~3.0@stable",
+        "chars/simple-render": "~0.1",
+        "illuminate/support": "~5.4.0@stable",
+        "illuminate/container": "~5.4.0@stable",
+        "illuminate/database": "~5.4.0@stable",
+        "illuminate/events": "~5.4.0@stable",
+        "illuminate/queue": "~5.4.0@stable",
+        "illuminate/encryption": "~5.4.0@stable",
+        "twig/twig": ">=1.8@stable",
+        "predis/predis": "^1.1@stable",
+        "mongodb/mongodb": "^1.0@stable",
+        "cache/cache": "~0.4@stable",
+        "jenssegers/mongodb": "~3.2@stable",
+        "vlucas/valitron": "^1.3.1@stable",
+        "matthiasmullie/minify": "1.3.42@stable",
+        "phpmailer/phpmailer": "^5.2@stable",
+        "facebook/graph-sdk": "^5.4@stable",
+        "google/apiclient": "^2.0@stable",
+        "react/promise": "^2.0@stable",
+        "guzzlehttp/guzzle": "^6.0@stable"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.2@stable",
+        "monolog/monolog": "^1.22",
+        "php-console/php-console": "^3.1",
+        "mockery/mockery": "0.9.*",
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+    },
+    "scripts": {
+
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
